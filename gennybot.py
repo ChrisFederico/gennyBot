@@ -7,6 +7,8 @@ def papiello(update, context):
 
     if pokemon in pokemon_list or pokemon == 'Donalla':
         sentence = prefix + ' ' + format_sentence(pokemon)
+    elif pokemon == 'Valeriocoppola':
+        sentence = "Ciao, cercando " + pokemon + " ho trovato questo: https://www.wattpad.com/533137870-pok%C3%A9mon-prima-essentia-interdimensional-danger"
     else:
         sentence = 'Non esiste ' + pokemon + ' qui a Volla...'
 
